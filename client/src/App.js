@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Login from './components/Login.jsx';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Error from './components/Error';
 
 let isLoggedIn = false;
 class App extends Component {
@@ -25,3 +27,9 @@ class App extends Component {
 }
 
 export default App;
+
+// <div>
+//   <Route exact path="/" component={Login} />
+//   <Route exact path="/signup" component={Signup} />
+//   <Route component={Error} />
+// </div>;
