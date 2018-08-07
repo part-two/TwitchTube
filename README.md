@@ -1,6 +1,6 @@
 # TwitchTube
 
-#### To start client (port 3000)
+### To start client (port 3000)
 
 `npm start`
 

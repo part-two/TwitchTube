@@ -2,10 +2,10 @@
   "name": "twitchtube",
   "version": "1.0.0",
   "description": "",
-  "main": "Server/server.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "cd client && yarn start",
-    "client": "nodemon Server/server.js",
+    "client": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
