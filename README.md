@@ -1,10 +1,13 @@
 # TwitchTube
 
-yarn start
-Starts the development server.
+#### To start client (port 3000)
 
-yarn build
-Bundles the app into static files for production.
+`npm start`
 
-yarn test
-Starts the test runner.
+`yarn start`
+`yarn build`
+`yarn test`
+
+### To start server (port 1337)
+
+`nodemon`
