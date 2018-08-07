@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(logger('short'));
 
-app.use('/', express.static(path.join(__dirname, '../Client/dist')));
+app.use('/', express.static(path.join(__dirname, '../Client/public')));
 // app.use(router);
 
 var port = process.env.port || 1337;

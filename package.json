@@ -4,6 +4,8 @@
   "description": "",
   "main": "Server/server.js",
   "scripts": {
+    "start": "cd client && yarn start",
+    "client": "nodemon Server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
